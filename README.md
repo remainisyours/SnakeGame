@@ -13,5 +13,5 @@ To eat all blocks from screen.
 # Precautions
 A line of block shouldn't divide the whole screen.
 
-# Ways to end game
+# Ways to end game (only when snake dies)
 1. Snake goes for a block such that block number >= length of snake.

@@ -15,11 +15,6 @@ public class Game
   {
     this.origin++;
   }
-  public void Up()
-  {
-    this.origin++;
-    this.origin--;
-  }
   
   public static void main(String[] args)
   {

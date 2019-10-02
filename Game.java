@@ -11,10 +11,6 @@ public class Game
   {
     this.origin--;
   }
-  public void Right()
-  {
-    this.origin++;
-  }
   
   public static void main(String[] args)
   {

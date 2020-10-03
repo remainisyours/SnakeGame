@@ -5,12 +5,14 @@ public class Game
   int[][] arr;
   int row;
   int col;
+  int[] cur;
   public Game(int a, int row, int col)
   {
     this.origin = a;
     this.row = row;
     this.col = col;
     this.arr = new int[row][col];
+    this.cur = new int[2];
     System.out.println("Game is Starting");
   }
   public void Initialization(int row, int col)
@@ -22,6 +24,8 @@ public class Game
         this.arr[row][col] = 0;
       }
     }
+    this.cur[0] = 0;
+    this.cur[1] = 0;
   }
   public static void main(String[] args)
   {

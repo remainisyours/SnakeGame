@@ -23,6 +23,28 @@ public class Game
       }
     }
   }
+  public void moveLeft(int step)
+  {
+    if (this.cur[0] - step>=0)
+    {
+      this.cur[0] = this.cur[0] - step;
+    }
+    else
+    {
+      System.out.println("Invalid step. Out of Bounds");
+    }
+  }
+  public void moveRight(int step)
+  {
+    if (this.cur[0] + step<this.col)
+    {
+      this.cur[0] = this.cur[0] + step;
+    }
+    else
+    {
+      System.out.println("Invalid step. Out of Bounds");
+    }
+  }
   public static void main(String[] args)
   {
     System.out.println("Hello Snake");
